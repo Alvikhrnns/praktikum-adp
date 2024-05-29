@@ -1,0 +1,9 @@
+import os
+os.system('clear')
+from termcolor import cprint,colored
+
+for i in range(5):
+	cprint(" "*45,"red","on_red")
+
+for i in range(5):
+	cprint(" "*45,'white',"on_white")
